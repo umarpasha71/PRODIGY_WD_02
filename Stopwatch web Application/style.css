@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #597e85;
+}
+
+.stopwatch {
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.control-sett {
+    margin-bottom: 30px;
+}
+
+.control-sett button {
+    font-size: 0.69rem;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor : pointer;
+}
+
+#startstopbutton {
+    background-color: #0dac0dfb;
+    color: white;
+}
+
+#resetbutton {
+    background-color: #0496c7;
+    color: white;
+    transition: color 0.3s, background-color 0.3s;
+
+}
+
+#lapbutton {
+    background-color: #cf0426;
+    color: white;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+}
+
+#resetbutton :hover {
+    color: #03ffd5;
+    background-color: #023047;
+}
